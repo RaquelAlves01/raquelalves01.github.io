@@ -1,0 +1,320 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+header {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+#nav-bar-index {
+  position: relative;
+  color: #c2c2c2;
+  background-color: none;
+  border-bottom: none;
+}
+
+.header-nav {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-name {
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-label {
+  color:#000;
+  text-align: center;
+}
+
+.nav a {
+  color: #000;
+  font-weight: normal;
+}
+
+.nav a:hover {
+  color: #fff;
+  font-weight: normal;
+  background-color: #000;
+}
+
+#logo-animation {
+  transform-origin: 2 2;
+  transform: rotate(0);
+  animation: logo 3s linear forwards;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.long-stroke-a {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: ldash 7s linear forwards;
+}
+
+@keyframes ldash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.short-stroke-a {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: sdash 8s linear forwards;
+}
+
+@keyframes sdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.stroke-r {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: rdash 5s linear forwards;
+}
+
+@keyframes rdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#arrow-left {
+  animation: larrow 4s linear forwards;
+}
+
+@keyframes larrow {
+
+  0% {
+    opacity: 0;
+    bottom: -1000px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#arrow-right {
+  animation: rarrow 4s linear forwards;
+}
+
+@keyframes rarrow {
+
+  0% {
+    opacity: 0;
+    bottom: -1000px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.h-one {
+  background-color: #EDE9F3;
+}
+
+.sec-two {
+  background-color: #fff;
+}
+
+.tools-used {
+  background-color: #000;
+}
+
+.index-content {
+  background-image: url(../images/section-patterns.svg), url(../images/section-patterns.svg);
+  background-repeat: repeat-y, repeat-y;
+  background-position: left, right;
+  background-size: 20px, 10px;
+}
+
+.tools-text {
+  color: #FE8D8E;
+}
+
+.tools-label {
+  color: #fff;
+}
+
+.cards-label:hover {
+  color: #fff;
+  box-shadow: 10px 10px 40px #000;
+}
+
+.about-me-text {
+  max-width: 12em;
+}
+
+.c-l-one {
+  border-top: 6px solid #FFB762;
+  border-bottom: 2px solid #FFB762;
+  color: #FFB762;
+  background-color:#fff;
+}
+
+.c-l-two {
+  border-top: 6px solid #609ED6;
+  border-bottom: 2px solid #609ED6;
+  color: #609ED6;
+  background-color:#fff;
+}
+
+.c-l-three {
+  border-top: 6px solid #78B35B;
+  border-bottom: 2px solid #78B35B;
+  color: #fff;
+  background-color:#fff;
+}
+
+.c-l-four {
+  border-top: 6px solid #F8625A;
+  border-bottom: 2px solid #F8625A;
+  color: #F8625A;
+  background-color:#fff;
+}
+
+.card-description {
+  color: #857993;
+}
+
+h2 {
+  color: #857993;
+}
+
+h3 {
+  color: #609ED6;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-fill {
+  transition: .3s all;
+  border-radius: 6px;
+}
+
+.content-fill:hover {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.web-contact {
+  background-color: #ECE8F2;
+}
+
+.content-nav {
+  color: #000;
+}
+
+.border-right {
+  border-right: 1px solid #fff;
+}
+
+
+.copyright {
+  border-top: 1px solid #857993;
+}
+
+.copy-text {
+  line-height: 1.2;
+}
+
+.logo-n-p {
+  color: #857993;
+}
+
+.web-img-cards {
+  color:#609ED6;
+}
+
+.web-title {
+  color: #FFB762;
+}
+
+.interaction-title {
+  color: #609ED6;
+}
+
+.illustration-title {
+  color: #78B35B;
+}
+
+.typography-title {
+  color: #F8625A;
+}
+
+@media only screen and (min-width: 26em) {
+
+  [type="checkbox"] + label, [type="radio"] + label, .label-inline {
+    display: none;
+  }
+
+  .flower {
+    position: relative;
+  }
+
+  .h-one {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: none;
+    text-shadow: 2px 2px 20px #000;
+  }
+
+  .content {
+  position: static;
+  display: inline-block;
+  }
+
+  .nav {
+  position: static;
+  display: inline-block;
+  text-align: center;
+  }
+  .nav a {
+    color: #000;
+  }
+
+  .nav a:hover {
+    color: #fff;
+  }
+
+
+}
