@@ -18,6 +18,10 @@ body {
   display: block;
 }
 
+.header-nav {
+
+}
+
 header {
   border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
@@ -54,13 +58,11 @@ header {
 }
 
 .nav a {
-  color: #fff;
-  text-decoration: none;
+  color: #575068;
 }
 
 .nav a:hover {
-  color: #000;
-  background-color: #fff;
+  color: #fff;
 }
 
 .grid-bg {
@@ -163,10 +165,14 @@ header {
   background-color: #fff;
 }
 
+.cards-label {
+  transition: 1s all linear;
+}
+
 .cards-label:hover {
   z-index: 1000;
   color: #fff;
-  box-shadow: 2px 2px 80px #857993;
+  box-shadow: 2px 2px 20px #857993;
 }
 
 .web-title {
@@ -217,7 +223,6 @@ header {
   color: #857993;
 }
 
-
 h2 {
   color: #575068;
 }
@@ -226,17 +231,10 @@ h2 {
 }
 
 .index-content {
-  background-image: url(../images/section-patterns.svg);
-  background-repeat: repeat-y;
-  background-position: left;
-  background-size: 25px;
+  background-color: #ECE8F2;
 }
 
-h3 {
-  color: #609ED6;
-}
-
-.content-nav {
+.footer-title {
   color: #000;
 }
 
@@ -253,11 +251,20 @@ h3 {
 }
 
 .web-contact {
-  background-color: #ECE8F2;
+  background-color: #857993;
 }
 
+.footer {
+  color: #575068;
+}
 
+.link-hover {
+ color: #575068;
+}
 
+.link-hover:hover {
+  color: #000;
+}
 
 @media only screen and (min-width: 26em) {
 
@@ -283,15 +290,5 @@ h3 {
   display: inline-block;
   text-align: center;
   }
-
-  .nav a {
-    color: #000;
-  }
-
-  .nav a:hover {
-    color: #fff;
-    background-color: #000;
-  }
-
 
 }

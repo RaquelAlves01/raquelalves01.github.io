@@ -9,6 +9,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main-index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
     <header>
       <div class="relative" id="header-main-div" style="background-color: #000; overflow: hidden;">
         <img style="background-size: cover; background-position: center;" class="img-flex" src="images/me2.jpg" alt="">
-        <div class="absolute wrapper name gutter h-one">
+        <div class="absolute wrapper name gutter h-one xs-0 s-1">
           <h1 class="push-0 normal tera">Raquel Alves</h1>
           <p class="push-0 bold yotta">RGD</p>
         </div>
@@ -51,13 +52,12 @@
           </div>
           <nav class="unit [ xs-1-2 s-3-4 m-3-4 l-2-3 ] text-right">
             <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
-            <label for="nav-check" class="nav-label kilo gutter normal text-left">Features</label>
+            <label for="nav-check" class="nav-label kilo gutter normal text-left">Content</label>
             <ul class="nav list-group text-left pad-t-1-4 gutter-1-2 push-0">
-              <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 bold" href="index.html">Main</a></li>
-              <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 bold" href="web-design.html">Web-Design</a></li>
-              <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 bold" href="interaction-design.html">Interaction</a></li>
-              <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 bold" href="illustration-design.html">Illustration</a></li>
-              <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 bold" href="typography-design.html">Typography</a></li>
+              <li class="content pad-b-1-2"><a class="header-nav link-box micro normal text-right island-1-8 bold" href="web-design.html">Web-Design</a></li>
+              <li class="content pad-b-1-2"><a class="header-nav link-box micro normal text-right island-1-8 bold" href="interaction-design.html">Interaction</a></li>
+              <li class="content pad-b-1-2"><a class="header-nav link-box micro normal text-right island-1-8 bold" href="illustration-design.html">Illustration</a></li>
+              <li class="content pad-b-1-2"><a class="header-nav link-box micro normal text-right island-1-8 bold" href="typography-design.html">Typography</a></li>
             </ul>
           </nav>
         </div>
@@ -67,7 +67,7 @@
   <main>
     <section class="push-2 sec-two pad-t-2 text-center">
       <ul class="grid grid-stretch wrapper island-1-4 gutter-2 list-group">
-        <li class="sec-two unit [ xs-1 s-1-2 m-1-4 l-1-4 ] island gutter-1-2 push c-l-one cards-label">
+        <li class="sec-two unit [ xs-1 m-1-2 l-1-4 ] island gutter-1-2 push c-l-one cards-label">
           <a class="link-box" href="web-design.html">
             <h1 class="push-0 mega normal web-title pad-t pad-b-1-4">Web Design</h1>
             <figure class="push-0">
@@ -78,7 +78,7 @@
             </figure>
           </a>
         </li>
-        <li class="sec-two unit [ xs-1 s-1-2 m-1-4 l-1-4 ] island gutter-1-2 push c-l-two cards-label">
+        <li class="sec-two unit [ xs-1 m-1-2 l-1-4 ] island gutter-1-2 push c-l-two cards-label">
           <a class="link-box" href="interaction-design.html">
             <h1 class="push-0 mega normal interaction-title pad-t pad-b-1-4">Interaction Design</h1>
             <figure class="push-0">
@@ -89,7 +89,7 @@
             </figure>
           </a>
         </li>
-        <li class="sec-two unit [ xs-1 s-1-2 m-1-4 l-1-4 ] island gutter-1-2 push c-l-three cards-label">
+        <li class="sec-two unit [ xs-1 m-1-2 l-1-4 ] island gutter-1-2 push c-l-three cards-label">
           <a class="link-box" href="illustration-design.html">
             <h1 class="push-0 mega normal illustration-title pad-t pad-b-1-4">Illustration Design</h1>
             <figure class="push-0">
@@ -100,7 +100,7 @@
             </figure>
           </a>
         </li>
-        <li class="sec-two unit [ xs-1 s-1-2 m-1-4 l-1-4 ] island gutter-1-2 push c-l-four cards-label">
+        <li class="sec-two unit [ xs-1 m-1-2 l-1-4 ] island gutter-1-2 push c-l-four cards-label">
           <a class="link-box" href="typography-design.html">
             <h1 class="push-0 mega normal typography-title pad-t pad-b-1-4">Typography Design</h1>
             <figure class="push-0">
@@ -122,12 +122,13 @@
              <img class"img-flex illus-about" src="images/about-me.svg" alt="Illustration of Raquel Alves">
            </i>
          </div>
-         <div class="unit [ sx-1 s-1 m-1 l-3-4 ] island gutter-2 aboutme ">
+         <div class="unit [ sx-1 s-1 m-1 l-3-4 ] island gutter-2 aboutme max-length">
            <h2 id="aboutme" class="push-0 pad-b-1-2 tera gutter-1-4">About Me</h2>
            <p class="push-0 kilo about-me-text bold gutter-1-4">Registered Graphic Designer</p>
-           <p class="push-0 pad-b-1-4 micro about-me-text gutter-1-4">Hello there, I am Raquel Alves Araujo Ferreira, I am currently a second year student at Algonquin College studying graphic design, expected to graduate June of ‘19.</p>
-           <p class="push-0 pad-b-1-4 micro about-me-text gutter-1-4">I developed a love for patterns, drawings and design fairly early in life and I discovered my passion for graphic design at seventeen after taking an arts and crafts class in the twelfth grade. And in pursuit of that passion I enrolled into the University of Del Valle of Mexico to take a graphic design course; Where I was officially introduced to typography, illustration, branding and logo design and I truly felt my connection with the career.</p>
-           <p class="push-0 micro about-me-text gutter-1-4">I always look forward to new experiences and jump into any opportunity to learn and improve myself as a designer.</p>
+           <p class="push-0 pad-b-1-4 micro about-me-text gutter-1-4">Hello there, I am Raquel Alves Araujo Ferreira, I am currently a second year student at Algonquin College studying graphic design, expected to graduate June of ‘19.<br>
+            I developed a love for patterns, drawings and design fairly early in life and I discovered my passion for graphic design at seventeen after taking an arts and crafts class in the twelfth grade. And in pursuit of that passion I enrolled into the University of Del Valle of Mexico to take a graphic design course; Where I was officially introduced to typography, illustration, branding and logo design and I truly felt my connection with the career.<br>
+            I always look forward to new experiences and jump into any opportunity to learn and improve myself as a designer.
+           </p>
           </div>
         </div>
       </div>
@@ -135,22 +136,24 @@
   </main>
   <footer class="web-contact">
     <div class="grid grid-stretch pad-t-2 gutter-2 text-left wrapper">
-      <div class="unit [ sx-1 s-1-2 m-1-2 l-1-2 ] pad-t-2 gutter-1-2">
-        <h3 class="milli push-0">Web Content</h3>
-        <ol class="list-group">
-          <li><a class="link-box micro content-nav copy-text" href="index.html#aboutme">About Me</a></li>
-          <li><a class="link-box micro content-nav copy-text" href="web-design.html">Web Design</a></li>
-          <li><a class="link-box micro content-nav copy-text" href="interaction-design.html">Interaction Design</a></li>
-          <li><a class="link-box micro content-nav copy-text" href="illustration-design.html">Illustration Design</a></li>
-          <li><a class="link-box micro content-nav copy-text" href="typography-design.html">Typography Design</a></li>
+      <div class="unit [ sx-1 m-1-2 l-1-2 ] pad-t-2 gutter-1-2">
+        <span class="peta footer-title push">Web Content</span>
+        <ol class="list-group gutter-1-4">
+          <li><a class="link-box micro push-1-4 copy-text link-hover" href="index.html#aboutme">About Me</a></li>
+          <li><a class="link-box micro push-1-4 copy-text link-hover" href="web-design.html">Web Design</a></li>
+          <li><a class="link-box micro push-1-4 copy-text link-hover" href="interaction-design.html">Interaction Design</a></li>
+          <li><a class="link-box micro push-1-4 copy-text link-hover" href="illustration-design.html">Illustration Design</a></li>
+          <li><a class="link-box micro push-1-4 copy-text link-hover" href="typography-design.html">Typography Design</a></li>
         </ol>
       </div>
-      <div class="unit [ sx-1 s-1-2 m-1-2 l-1-2 ] pad-t-2 push pad-b-2 gutter-1-2">
-        <h3 class="milli push-0"> Contact Information</h3>
-        <p class="push-0 micro bold copy-text">Email</p>
-        <p class="push-0 pad-b-1-2 micro">kellieira@gmail.com</p>
-        <p class="push-0 micro bold copy-text">Phone Number</p>
-        <p class="push-0 pad-b-1-2 micro pad-b">(613) 293-9766</p>
+      <div class="unit [ sx-1 m-1-2 l-1-2 ] pad-t-2 push pad-b-2 gutter-1-2">
+        <span class="peta footer-title push"> Contact Information</span>
+        <div class="gutter-1-4">
+          <p class="push-0 micro bold copy-text">Email</p>
+          <p class="push-0 pad-b-1-2 micro footer">kellieira@gmail.com</p>
+          <p class="push-0 micro bold copy-text">Phone Number</p>
+          <p class="push-0 pad-b-1-2 micro pad-b footer">(613) 293-9766</p>
+        </div>
           <div class="social-media">
             <ul class="list-group-inline">
               <li>
@@ -185,20 +188,22 @@
           </div>
       </div>
     </div>
-    <div class="grid grid-middle pad-t push-0 pad-b-1-2 copyright gutter">
-      <div class="unit x-s-1 s-1-2 m-1-2 l-1-2">
-        <p class="logo-name bold mega text-left push-0 logo-n-p">Raaf</p>
-      </div>
-      <nav class="unit x-s-1 s-1-2 m-1-2 l-1-2 text-right gutter">
-        <ul class="list-group-inline pad-t-1-4 gutter-1-2 push-0">
-          <li class="content pad-b-1-2"><a style="color: #000;" class="link-box header-nav micro bold text-right island-1-8" href="index.html">ENG</a></li>
-          <li class="content pad-b-1-2"><a style="color: #000;" class="link-box header-nav micro bold text-right island-1-8" href="index-pt.html">PT</a></li>
-          <li class="content pad-b-1-2"><a style="color: #000;" class="link-box header-nav micro bold text-right island-1-8" href="index-es.html">ES</a></li>
-        </ul>
-      </nav>
-      <div class="unit [ xs-1 s-1 m-1 l-1 ]">
-        <p class="text-right copy-text micro push-0">&copy;<time>2017</time> Raquel Alves Design</p>
-        <p class="text-right copy-text micro push-0">All Rights Reserved</p>
+    <div class="pad-t push-0 pad-b-1-2 gutter-2">
+      <div class="copyright grid grid-middle">
+        <div class="unit x-s-1 s-1-2 m-1-2 l-1-2">
+          <p class="logo-name bold mega text-left push-0 logo-n-p push-r footer">Raaf</p>
+        </div>
+        <nav class="unit x-s-1 s-1-2 m-1-2 l-1-2 text-right">
+          <ul class="list-group-inline pad-t-1-4 push-0">
+            <li class="content pad-b-1-2"><a class="footer link-box header-nav micro bold text-right island-1-8 link-hover" href="index.html">ENG</a></li>
+            <li class="content pad-b-1-2"><a class="footer link-box header-nav micro bold text-right island-1-8 link-hover" href="index-pt.html">PT</a></li>
+            <li class="content pad-b-1-2"><a class="footer link-box header-nav micro bold text-right island-1-8 link-hover" href="index-es.html">ES</a></li>
+          </ul>
+        </nav>
+        <div class="unit [ xs-1 s-1 m-1 l-1 ]">
+          <p class="text-right copy-text micro push-0 footer">&copy;<time>2017</time> Raquel Alves Design</p>
+          <p class="text-right copy-text micro push-0 footer">All Rights Reserved</p>
+        </div>
       </div>
     </div>
   </footer>

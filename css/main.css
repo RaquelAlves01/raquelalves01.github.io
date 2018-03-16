@@ -309,7 +309,8 @@ h3 {
   text-align: center;
   }
   .nav a {
-    color: #000;
+    color: #857993;
+    font-weight: normal;
   }
 
   .nav a:hover {
