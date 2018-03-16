@@ -42,17 +42,6 @@ header {
   text-align: center;
 }
 
-.h-one {
-  display: none;
-  position: absolute;
-  top: 220px;
-  left: 55%;
-  transform: translateX(-40%);
-  color: #fff;
-  background: none;
-  text-shadow: 2px 2px 20px #000;
-}
-
 .nav a {
   color: #575068;
 }
@@ -262,6 +251,28 @@ h2 {
   color: #000;
 }
 
+.h-one {
+  display: inline;
+}
+
+.h-one {
+  display: none;
+}
+
+@media only screen and (min-width: 12em) {
+
+  .h-one {
+    display: inline-block;
+    top: 10em;
+    left: 55%;
+    transform: translateX(-40%);
+    color: #fff;
+    background: none;
+    text-shadow: 2px 2px 20px #000;
+  }
+
+}
+
 @media only screen and (min-width: 34em) {
 
   [type="checkbox"] + label, [type="radio"] + label, .label-inline {
@@ -270,10 +281,6 @@ h2 {
 
   .flower {
     position: relative;
-  }
-
-  .h-one {
-    display: inline;
   }
 
   .content {
