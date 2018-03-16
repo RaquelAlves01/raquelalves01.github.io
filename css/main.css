@@ -47,14 +47,11 @@ header {
 }
 
 .nav a {
-  color: #000;
-  font-weight: normal;
+  color: #575068;
 }
 
 .nav a:hover {
-  color: #fff;
-  font-weight: normal;
-  background-color: #000;
+  color: #ECE8F2;
 }
 
 #logo-animation {
@@ -245,7 +242,6 @@ h3 {
   border-right: 1px solid #fff;
 }
 
-
 .copyright {
   border-top: 1px solid #857993;
 }
@@ -278,7 +274,31 @@ h3 {
   color: #F8625A;
 }
 
-@media only screen and (min-width: 34em) {
+.footer-title {
+  color: #000;
+}
+
+.copyright {
+  border-top: 1px solid #000;
+}
+
+.copy-text {
+  line-height: 1.2em;
+}
+
+.logo-n-p {
+  color: #857993;
+}
+
+.web-contact {
+  background-color: #575068;
+}
+
+.footer {
+  color: #857993;
+}
+
+@media only screen and (min-width: 38em) {
 
   [type="checkbox"] + label, [type="radio"] + label, .label-inline {
     display: none;
@@ -308,15 +328,5 @@ h3 {
   display: inline-block;
   text-align: center;
   }
-  .nav a {
-    color: #857993;
-    font-weight: normal;
-  }
-
-  .nav a:hover {
-    color: #fff;
-  }
-
-
 
 }
