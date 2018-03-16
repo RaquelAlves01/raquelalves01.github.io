@@ -298,6 +298,10 @@ h3 {
   color: #857993;
 }
 
+.link-hover {
+  color: #857993;
+}
+
 @media only screen and (min-width: 38em) {
 
   [type="checkbox"] + label, [type="radio"] + label, .label-inline {
