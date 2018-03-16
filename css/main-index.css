@@ -273,7 +273,7 @@ h2 {
 
 }
 
-@media only screen and (min-width: 34em) {
+@media only screen and (min-width: 38em) {
 
   [type="checkbox"] + label, [type="radio"] + label, .label-inline {
     display: none;
