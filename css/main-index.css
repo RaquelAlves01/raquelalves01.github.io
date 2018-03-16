@@ -164,6 +164,7 @@ header {
 }
 
 .cards-label:hover {
+  z-index: 1000;
   color: #fff;
   box-shadow: 2px 2px 80px #857993;
 }
