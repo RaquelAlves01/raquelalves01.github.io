@@ -12,6 +12,8 @@ body {
   position: absolute;
   right: 0;
   top: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
 }
 
 .nav-check:checked ~ .nav {
@@ -38,16 +40,16 @@ header {
   font-family: "Raleway", sans-serif;
 }
 .nav-label {
-  color:#fff;
+  color:#575068;
   text-align: center;
 }
 
 .nav a {
-  color: #575068;
+  color: #ece8f2;
 }
 
 .nav a:hover {
-  color: #fff;
+  color: #857993;
 }
 
 .grid-bg {
@@ -58,6 +60,10 @@ header {
   position: relative;
   max-height: 600px;
   overflow: hidden;
+}
+
+.logo-main {
+  text-shadow: 2px 2px 32px #fff;
 }
 
 #logo-animation {
@@ -151,7 +157,7 @@ header {
 }
 
 .cards-label {
-  transition: 1s all linear;
+  transition: 800ms all linear;
 }
 
 .cards-label:hover {
@@ -220,11 +226,11 @@ h2 {
 }
 
 .footer-title {
-  color: #000;
+  color: #575068;
 }
 
 .copyright {
-  border-top: 1px solid #000;
+  border-top: 1px solid #575068;
 }
 
 .copy-text {
@@ -236,7 +242,7 @@ h2 {
 }
 
 .web-contact {
-  background-color: #575068;
+  background-color: #121212;
 }
 
 .footer {
@@ -248,7 +254,7 @@ h2 {
 }
 
 .link-hover:hover {
-  color: #000;
+  color: #575068;
 }
 
 .h-one {
@@ -259,7 +265,7 @@ h2 {
   display: none;
 }
 
-@media only screen and (min-width: 12em) {
+@media only screen and (min-width: 15em) {
 
   .h-one {
     display: inline-block;
@@ -292,6 +298,14 @@ h2 {
   position: static;
   display: inline-block;
   text-align: center;
+  background-color: transparent;
   }
 
+  .nav a {
+    color: #575068;
+  }
+
+  .nav a:hover {
+    color: #857993;
+  }
 }

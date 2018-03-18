@@ -12,6 +12,8 @@ body {
   position: absolute;
   right: 0;
   top: 100%;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 10px;
 }
 
 .nav-check:checked ~ .nav {
@@ -31,8 +33,6 @@ header {
 }
 
 .header-nav {
-  font-weight: bold;
-  color: #fff;
   text-decoration: none;
 }
 
@@ -47,11 +47,11 @@ header {
 }
 
 .nav a {
-  color: #575068;
+  color: #857993;
 }
 
 .nav a:hover {
-  color: #ECE8F2;
+  color: #575068;
 }
 
 #logo-animation {
@@ -149,7 +149,7 @@ header {
 }
 
 .tools-used {
-  background-color: #000;
+  background-color: #d4d3d3;
 }
 
 .index-content {
@@ -164,7 +164,7 @@ header {
 }
 
 .tools-label {
-  color: #fff;
+  color: #575068;
 }
 
 .cards-label:hover {
@@ -275,11 +275,11 @@ h3 {
 }
 
 .footer-title {
-  color: #000;
+  color: #575068;
 }
 
 .copyright {
-  border-top: 1px solid #000;
+  border-top: 1px solid #575068;
 }
 
 .copy-text {
@@ -291,7 +291,7 @@ h3 {
 }
 
 .web-contact {
-  background-color: #575068;
+  background-color: #000;
 }
 
 .footer {
@@ -320,7 +320,15 @@ h3 {
   .nav {
   position: static;
   display: inline-block;
-  text-align: center;
+  background-color: transparent;
+  }
+
+  .nav a {
+    color: #575068;
+  }
+
+  .nav a:hover {
+    color: #857993;
   }
 
 }
