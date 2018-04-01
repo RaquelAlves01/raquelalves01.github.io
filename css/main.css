@@ -226,8 +226,10 @@ h3 {
 }
 
 .content-fill:hover {
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
+  -webkit-filter: blur(.5px);
+  filter: blur(.5px);
+  border: 2px solid #857993;
+  border-radius: 10px;
 }
 
 .web-contact {
