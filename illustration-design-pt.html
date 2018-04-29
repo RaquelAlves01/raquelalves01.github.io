@@ -11,7 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
 </head>
 <body>
-  <header class="nav-bar text-center">
+
+  <ul class="skip-links">
+    <li><a href="#main">Pule para a parte principal da pagina</a></li>
+    <li><a href="#nav">Pule para a barra de navegação</a></li>
+  </ul>
+
+  <header role="banner" id="nav" tabindex="0" class="nav-bar text-center">
     <div class="grid grid-middle pad-t-1-2 pad-b-1-2">
       <div class="unit [ xs-1-2 s-1-4 m-1-4 l-1-3 ] text-left gutter-1-2">
         <a class="link-box" href="index-pt.html">
@@ -48,14 +54,14 @@
           <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8" href="index-pt.html">Principal</a></li>
           <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8" href="web-design-pt.html">Website</a></li>
           <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8" href="interaction-design-pt.html">Interação</a></li>
-          <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8" href="illustration-design-pt.html">Ilustração</a></li>
+          <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8 current" href="illustration-design-pt.html">Ilustração</a></li>
           <li class="content pad-b-1-2"><a class="header-nav micro normal text-right island-1-8" href="typography-design-pt.html">Tipografia</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="wrapper pad-t-2 island-1-4 gutter-1-4 push">
+  <main role="main" id="main" tabindex=0 class="wrapper pad-t-2 island-1-4 gutter-1-4 push">
     <div class="wrapper pad-t-2 gutter pad-b">
       <i class="icon i-96">
         <img class"img-flex" src="images/illustration.svg" alt="">
@@ -248,7 +254,7 @@
     </div>
   </section>
 
-  <footer class="web-contact">
+  <footer role="contentinfo" tabindex=0 class="web-contact">
     <div class="grid grid-stretch pad-t-2 gutter-2 valign-middle wrapper">
       <div class="unit [ sx-1 m-1-2 l-1-2 ] pad-t-2 gutter-2">
         <span class="peta footer-title">Conteúdo</span>

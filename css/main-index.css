@@ -12,8 +12,8 @@ body {
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: rgba(0, 0, 0, .3);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 0 0 10px 10px;
 }
 
 .nav-check:checked ~ .nav {
@@ -26,6 +26,7 @@ header {
 
 #div-wrapper {
   max-width: none;
+  background-color: #fff;
 }
 
 #nav-bar-index {
@@ -44,8 +45,18 @@ header {
   text-align: center;
 }
 
+.banner-index-image {
+  background-image: url("../images/banner-index.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  bottom: 0;
+  padding-top: 150%;
+}
+
 .nav a {
-  color: #ece8f2;
+  color: #000;
 }
 
 .nav a:hover {
@@ -58,12 +69,8 @@ header {
 
 #header-main-div {
   position: relative;
-  max-height: 600px;
+  max-height: 700px;
   overflow: hidden;
-}
-
-.logo-main {
-  text-shadow: 2px 2px 32px #fff;
 }
 
 #logo-animation {
@@ -157,7 +164,7 @@ header {
 }
 
 .cards-label {
-  transition: 800ms all linear;
+  transition: 300ms all linear;
 }
 
 .cards-label:hover {
@@ -258,10 +265,6 @@ h2 {
 }
 
 .h-one {
-  display: inline;
-}
-
-.h-one {
   display: none;
 }
 
@@ -270,11 +273,11 @@ h2 {
   .h-one {
     display: inline-block;
     top: 10em;
-    left: 55%;
-    transform: translateX(-40%);
+    left: 50%;
+    transform: translateX(-45%);
     color: #fff;
     background: none;
-    text-shadow: 2px 2px 20px #000;
+    text-shadow: 0 0 1px #000;
   }
 
 }
@@ -308,4 +311,10 @@ h2 {
   .nav a:hover {
     color: #857993;
   }
+
+  .h-one {
+    left: 50%;
+    transform: translateX(-35%);
+  }
+
 }
