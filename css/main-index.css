@@ -48,11 +48,8 @@ header {
 .banner-index-image {
   background-image: url("../images/banner-index.jpg");
   background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  bottom: 0;
-  padding-top: 150%;
+  background-position: center;
+  height: 100vh;
 }
 
 .nav a {
@@ -315,6 +312,16 @@ h2 {
   .h-one {
     left: 50%;
     transform: translateX(-35%);
+  }
+
+  .banner-index-image {
+    background-image: url("../images/banner-index.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    bottom: 0;
+    padding-top: 150%;
   }
 
 }
